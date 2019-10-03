@@ -3,9 +3,9 @@ import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import * as R from 'ramda';
 
-import {fetchPhones, loadMorePhones, addPhoneToBasket} from 'actions';
-import {getPhones} from 'selectors';
-import Layout from 'containers/layout';
+import {fetchPhones, loadMorePhones, addPhoneToBasket} from '../../actions';
+import {getPhones} from '../../selectors';
+import Layout from '../../containers/layout';
 
 class Phones extends Component {
   componentDidMount() {
